@@ -3,6 +3,15 @@
 # Passport Authentication <br>
 
 ### Use Customer Model Instead User Model For Auth<br>
+## Version:
+```
+"require": {
+        "php": "^8.0.2",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.19",
+        "laravel/passport": "^11.8",
+        }
+```
 
 ## How To Use: <br>
 
