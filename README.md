@@ -2,7 +2,7 @@
 
 # Passport Authentication <br>
 
-### Use Customer Model Instead User Model For Auth<br>
+### Multi Authentication and use custome class for Authentication<br>
 ## Version:
 ```
 "require": {
@@ -16,13 +16,13 @@
 ## How To Use: <br>
 
 -Create Customer Model <br>
--Add Your Custom Provider In Providers Array In config/auth.php <br>
+-Add Your Custom Provider In Providers Array In ``config/auth.php`` <br>
 ```
 'customers' => [
         'driver' => 'eloquent',
         'model' => App\Customer::class,
 ```
--Add Customer.php in Illuminate\Foundation\Auth\Access <br>
+-Add ``Customer.php`` in Illuminate\Foundation\Auth\Access <br>
 ```
 <?php
 
