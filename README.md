@@ -45,4 +45,4 @@ class Customer extends Model implements
     use Authenticatable, Authorizable, CanResetPassword, MustVerifyEmail;
 }
 ```
-multi auth
+multi auth with two table
