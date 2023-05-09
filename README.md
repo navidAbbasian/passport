@@ -45,4 +45,5 @@ class Customer extends Model implements
     use Authenticatable, Authorizable, CanResetPassword, MustVerifyEmail;
 }
 ```
-multi auth with two table
+multi auth with two table<br>
+is good for develop side, in product i prefer you JWT
