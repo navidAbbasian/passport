@@ -20,7 +20,8 @@
 ```
 'customers' => [
         'driver' => 'eloquent',
-        'model' => App\Customer::class,
+        'model' => App\Models\Customer::class,
+
 ```
 -Add ``Customer.php`` in Illuminate\Foundation\Auth\Access <br>
 ```
